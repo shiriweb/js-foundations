@@ -46,8 +46,10 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
     ```
   - Object.create()
   - Factory functions
-- New things
+- New syntax / shortcuts
   - Arrow functions
   - Spread syntax (for arrays & objects)
   - Shorthand object notations
   - beforeEach in test specs
+- Preview
+  - \_\_proto\_\_
