@@ -46,21 +46,51 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 ### 1-testfirst-part-1
 
 <details><summary>Click to Expand</summary>
+
 - Object creation
-  - Object.assign()
-    ```
-    let clone = Object.assign({}, objToClone
-    ```
-  - Object.create()
+  - [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+  ```
+  let clone = Object.assign({}, objToClone)
+  ```
+  - [Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+  ```
+  let parentObject = {name: "niru", grade:"masters"}
+  let childObject = Object.create(parentObject)
+  ```
   - Factory functions
+  ```
+  function makeStudent(name, grade) {
+    let newStudent = {name, grade}
+    return newStudent
+  }
+  let niru = makeStudent('niru', 'masters')
+  ```
 - New syntax / shortcuts
-  - Arrow functions
-  - Spread syntax (for arrays & objects)
-  - Shorthand object notations
-  - beforeEach in test specs
+
+  - [Spread syntax (for arrays & objects)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+  ```
+  let arrA = [1, [2,3], 4]
+  let arrB = [4, 5, 6]
+  let arrC = [20, ...arrA, arrB]
+
+  let objA = {name: 'niru', grade: 'masters'}
+  let objB = {age: 25}
+  let objC = {age: 22, ...objA, objC}
+  ```
+
+  - [Shorthand object notations](https://attacomsian.com/blog/javascript-object-property-shorthand)
+
+  ```
+  let name = "niru"
+  let grade = "masters"
+
+  let niru = {name, grade}
+  ```
+
 - Preview
-  - \_\_proto\_\_
-</details>
+  - [\_\_proto\_\_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
+  </details>
 
 ### 2-testfirst-part-2
 
