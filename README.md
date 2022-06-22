@@ -43,7 +43,7 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ## Foundations
 
-### **_1-testfirst-part-1_**
+### **_testfirst-part-1_**
 
 <details><summary>TO STUDY: Click to expand</summary>
 
@@ -95,8 +95,8 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
 
-- [Object assign / Factory functions](lecture-notes/1-testfirst-part-1-object-assign-factory-function.js)
-- [Object create / **proto**](lecture-notes/1-testfirst-part-1-object-create-proto.js)
+- [Object assign / Factory functions](lecture-notes/testfirst-part-1-object-assign-factory-function.js)
+- [Object create / **proto**](lecture-notes/testfirst-part-1-object-create-proto.js)
 
 </details>
 
@@ -113,7 +113,7 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 </details>
 
-### **_2-testfirst-part-2_**
+### **_testfirst-part-2_**
 
 <details><summary>TO STUDY: Click to expand</summary>
 
@@ -124,7 +124,7 @@ const sayHello = (name) => `hello ${name}!`
 console.log(sayHello('Pitamber'))
 ```
 
-- [Constructor function](readings/2-testfirst-part-2-constructor.md)
+- [Constructor function](readings/testfirst-part-2-constructor.md)
 
 ```
 function FourWheeler(fwType) {
@@ -166,8 +166,8 @@ someFunc('hello', 'there', 'you');
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
 
-- [Arrow function](lecture-notes/2-testfirst-part-2-arrow-function.js)
-- [Array methods / arguments ](lecture-notes/2-testfirst-part-2.js)
+- [Arrow function](lecture-notes/testfirst-part-2-arrow-function.js)
+- [Array methods / arguments ](lecture-notes/testfirst-part-2.js)
 
 </details>
 
@@ -175,11 +175,59 @@ someFunc('hello', 'there', 'you');
 
 - [testfirst part 2](tests/3-testfirst-part-2/)
 - [checkpoint part 2 (optional)](tests/5-checkpoint-pt-2/)
+- [vanishing man](tests/4-vanishing-man/)
 
 </details>
 
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 
 - [testfirst part 2](solutions/testfirst-part-2/)
+- [vanishing man](solutions/vanishing-man/)
+
+</details>
+
+### **_testfirst-part-3_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+
+- [Class](readings/testfirst-part-3-classes.md)
+
+```
+class Student {
+  constructor(name, grade) {
+    this.name = name;
+    this.grade = grade;
+  }
+
+  sayHello() {
+    return `My name is ${this.name}`;
+  }
+}
+
+let newStudent = new Student('niru', 'masters')
+```
+
+</details>
+
+<details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [testfirst part 3](lecture-notes/testfirst-part-3.js)
+
+</details>
+
+<details><summary>TODO: Click to expand</summary>
+
+- [testfirst part 3](tests/6-testfirst-part-3/)
+- [checkpoint review (optional)](tests/7-testfirst-review/)
+- [checkpoint final (optional)](tests/8-checkpoint-final/)
+- [guessing game](tests/9-guessing-game/)
+
+</details>
+
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [testfirst part 3](solutions/testfirst-part-3/)
+- [testfirst review](solutions/testfirst-review/)
+- [guessing game](solutions/guessing-game/)
 
 </details>
