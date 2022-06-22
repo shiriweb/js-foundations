@@ -4,7 +4,7 @@ TestFirst JavaScript is a multi-part series that provides practice to intermedia
 
 ### Setting up the repository
 
-<details><summary>Click to Expand</summary>
+<details><summary>Click to expand</summary>
 
 ### Before beginning your assignment, make sure you have completed these steps:
 
@@ -45,7 +45,7 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ### 1-testfirst-part-1
 
-<details><summary>Click to Expand</summary>
+<details><summary>TO STUDY: Click to expand</summary>
 
 - Object creation
   - [Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
@@ -89,12 +89,20 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
   ```
 
 - Preview
+
   - [\_\_proto\_\_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
   </details>
 
+<details><summary>TODO: Click to expand</summary>
+
+- [testfirst part 1](tests/1-testfirst-part-1/)
+- [checkpoint part 1 (optional)](tests/2-checkpoint-pt-1/)
+
+</details>
+
 ### 2-testfirst-part-2
 
-<details><summary>Click to Expand</summary>
+<details><summary>TODO: Click to expand</summary>
 
 - [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -140,5 +148,12 @@ someFunc('hello', 'there', 'you');
 - [Some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 - [Every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 - [Includes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+
+</details>
+
+<details><summary>TODO: Click to expand</summary>
+
+- [testfirst part 2](tests/3-testfirst-part-2/)
+- [checkpoint part 2 (optional)](tests/5-checkpoint-pt-2/)
 
 </details>
