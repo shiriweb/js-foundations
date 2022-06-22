@@ -13,6 +13,14 @@
 // console.log(a.reduce((val, x) => val + x*2)); //19
 // console.log(a.reduce((val, x) => val + x, 20)); //30
 
+// let passingFunc = (curVal, x) => {
+//   curVal.push(x * 2);
+//   return curVal;
+// };
+
+// let reducedArray = newArr.reduce(passingFunc, []);
+// console.log(reducedArray); //[20, 40, 60, 80]
+
 /**
  * Array.map
  * example: array.map(mappingFunction)
@@ -25,14 +33,6 @@
 
 // let mappedArray = newArr.map((x) => x + 1);
 // console.log(mappedArray); //[11, 21, 31, 41]
-
-// let passingFunc = (curVal, x) => {
-//   curVal.push(x * 2);
-//   return curVal;
-// };
-
-// let reducedArray = newArr.reduce(passingFunc, []);
-// console.log(reducedArray); //[20, 40, 60, 80]
 
 /**
  * Array.filter

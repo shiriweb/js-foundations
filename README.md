@@ -43,7 +43,7 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ## Foundations
 
-### 1-testfirst-part-1
+### **_1-testfirst-part-1_**
 
 <details><summary>TO STUDY: Click to expand</summary>
 
@@ -93,6 +93,13 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
   - [\_\_proto\_\_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto)
   </details>
 
+<details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [Object assign / Factory functions](lecture-notes/1-testfirst-part-1-object-assign-factory-function.js)
+- [Object create / **proto**](lecture-notes/1-testfirst-part-1-object-create-proto.js)
+
+</details>
+
 <details><summary>TODO: Click to expand</summary>
 
 - [testfirst part 1](tests/1-testfirst-part-1/)
@@ -100,9 +107,15 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 </details>
 
-### 2-testfirst-part-2
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 
-<details><summary>TODO: Click to expand</summary>
+- [testfirst part 1](solutions/testfirst-part-1/)
+
+</details>
+
+### **_2-testfirst-part-2_**
+
+<details><summary>TO STUDY: Click to expand</summary>
 
 - [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -151,9 +164,22 @@ someFunc('hello', 'there', 'you');
 
 </details>
 
+<details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [Arrow function](lecture-notes/2-testfirst-part-2-arrow-function.js)
+- [Array methods / arguments ](lecture-notes/2-testfirst-part-2.js)
+
+</details>
+
 <details><summary>TODO: Click to expand</summary>
 
 - [testfirst part 2](tests/3-testfirst-part-2/)
 - [checkpoint part 2 (optional)](tests/5-checkpoint-pt-2/)
+
+</details>
+
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [testfirst part 2](solutions/testfirst-part-2/)
 
 </details>
