@@ -176,6 +176,8 @@ someFunc('hello', 'there', 'you');
 - [testfirst part 2](tests/3-testfirst-part-2/)
 - [checkpoint part 2 (optional)](tests/5-checkpoint-pt-2/)
 - [vanishing man](tests/4-vanishing-man/)
+  - string methods: be familiar with methods such as [split](https://www.programiz.com/javascript/library/string/split)
+  - array methods: be familiar with array methods mentioned above
 
 </details>
 
@@ -207,6 +209,24 @@ class Student {
 let newStudent = new Student('niru', 'masters')
 ```
 
+- [Extending a class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends)
+
+```
+class TEJstudent extends Student {
+  constructor(name, grade) {
+    super(name, grade);
+
+    this.isTEJfellow = true;
+  }
+
+  schoolLocation() {
+    return "The school is in Pasayard"
+  }
+}
+```
+
+- [this.constructor.name](https://bobbyhadz.com/blog/javascript-get-class-name-of-object): will print the name of class that the instance was created from
+
 </details>
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
@@ -220,7 +240,6 @@ let newStudent = new Student('niru', 'masters')
 - [testfirst part 3](tests/6-testfirst-part-3/)
 - [checkpoint review (optional)](tests/7-testfirst-review/)
 - [checkpoint final (optional)](tests/8-checkpoint-final/)
-- [guessing game](tests/9-guessing-game/)
 
 </details>
 
@@ -228,6 +247,51 @@ let newStudent = new Student('niru', 'masters')
 
 - [testfirst part 3](solutions/testfirst-part-3/)
 - [testfirst review](solutions/testfirst-review/)
+
+</details>
+
+### **_HTML / CSS_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+
+<details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [HTML / CSS]()
+
+</details>
+
+<details><summary>TODO: Click to expand</summary>
+
+- [guessing game](tests/9-guessing-game/)
+
+</details>
+
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [guessing game](solutions/guessing-game/)
+
+</details>
+
+### **_DOM_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+
+<details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [DOM]()
+
+</details>
+
+<details><summary>TODO: Click to expand</summary>
+
+- [guessing game](tests/9-guessing-game/)
+
+</details>
+
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
 - [guessing game](solutions/guessing-game/)
 
 </details>
