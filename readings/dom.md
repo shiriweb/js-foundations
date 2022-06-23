@@ -80,11 +80,10 @@ When your HTML loads in the browser, it loads top to bottom.
 
 Since the `<script>` element loads only one time, the javascript files execute once. If we have code that is executed in the js file, it only runs once. In order to run code based on a user action, such as a button click, keyboard event, form submission, etc. For example in the code example below:
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="querySelector" src="https://codepen.io/rushilshakya/embed/preview/KKQOPry?default-tab=js%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/rushilshakya/pen/KKQOPry">
-  querySelector</a> by rushilshakya (<a href="https://codepen.io/rushilshakya">@rushilshakya</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+<iframe
+  src="https://codepen.io/rushilshakya/pen/KKQOPry"
+  style="width:100%; height:300px;"
+></iframe>
 
 In the example, the [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)'s [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property is used to update the background color of the `<p>` element. The js code executes when the `<script>` element loads. If we wanted the background color to be red, we could have made the background color in our CSS file. How can we have the updateTheColor function execute after our document is done loading? For example, let's say we wanted the background color to change to red when a user clicked the page. In order to achieve this behavior, we need to look at events and event handlers.
 
