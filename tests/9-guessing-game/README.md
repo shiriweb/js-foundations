@@ -40,10 +40,31 @@ After your HTML and CSS is complete, we'll have a short lesson on adding JavaScr
 
 ### ASSIGNMENT
 
-The second portion involves interacting with the DOM to the Guessing Game.
+It's time to add javascript functionality to our guessing game project! The goal of this project isn't to gain a deep understanding of HTML, CSS and using JavaScript with the DOM, the goal is to learn the basics of a few separate technologies and piece them together in a project. The immersive will dive into HTML, CSS and using JS in the browser in more depth!
 
 ### PROJECT REQUIREMENTS:
 
 <details><summary>Click to expand</summary>
 
+Here is how the guessing-game operates:
+
+- A number between 1-100 will be randomly generated and is the winning number.
+- The player inputs their guess in a text input field and then submits their guess.
+- If the number submitted is the winning number, the player wins! Otherwise, they are allowed to try again.
+- The game should give the player a hint after each guess, helping them know whether to guess lower or higher and how close they are.
+- After five unsuccessful guesses, the game is over, and the player loses.
+
+Here are a few features we suggest adding to your game (they are not required):
+
+- Hint Button - Create a hint button that provides two random numbers between 1 and 100 and the "winning" number
+- Reset/Play Again - Create a Play Again button that removes all the information from the page and restarts the game
+
 </details>
+
+---
+
+### PROJECT SETUP
+
+You already have the project directory in this repo. Part 1 of this project is to add the HTML and CSS to the project. Part 2 is to add the JS functionality.
+
+You may have noticed there is a JS directory with a guess-game-specs.js. This file is intended to be a guide to set up the base functionality of the guessing game. It is up to you to decide to use it. If you use the specs to create the basic logic and functionality of your game, don't forget you need to add the event listeners to add the functionality to the document, you can add the event listeners in your guessing-game.js file (along with the "solution" code from the guessing-game-spec.js file).
