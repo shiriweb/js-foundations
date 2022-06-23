@@ -238,7 +238,7 @@ class TEJstudent extends Student {
 <details><summary>TODO: Click to expand</summary>
 
 - [testfirst part 3](tests/6-testfirst-part-3/)
-- [checkpoint review (optional)](tests/7-testfirst-review/)
+- [testfirst review (optional)](tests/7-testfirst-review/)
 - [checkpoint final (optional)](tests/8-checkpoint-final/)
 
 </details>
@@ -253,6 +253,9 @@ class TEJstudent extends Student {
 ### **_HTML / CSS_**
 
 <details><summary>TO STUDY: Click to expand</summary>
+
+- [HTML / CSS](readings/html-css.md)
+
 </details>
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
