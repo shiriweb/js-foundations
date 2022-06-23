@@ -266,7 +266,7 @@ class TEJstudent extends Student {
 
 <details><summary>TODO: Click to expand</summary>
 
-- [guessing game](tests/9-guessing-game/)
+- [PART 1 (HTML / CSS) of guessing game](tests/9-guessing-game/)
 
 </details>
 
@@ -279,6 +279,9 @@ class TEJstudent extends Student {
 ### **_DOM_**
 
 <details><summary>TO STUDY: Click to expand</summary>
+
+- [DOM](readings/dom.md)
+
 </details>
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
@@ -289,7 +292,7 @@ class TEJstudent extends Student {
 
 <details><summary>TODO: Click to expand</summary>
 
-- [guessing game](tests/9-guessing-game/)
+- [PART 2 (DOM) of guessing game](tests/9-guessing-game/)
 
 </details>
 
