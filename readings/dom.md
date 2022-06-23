@@ -82,7 +82,7 @@ Since the `<script>` element loads only one time, the javascript files execute o
 
 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="KKQOPry" data-preview="true" data-editable="true" data-user="rushilshakya" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/rushilshakya/pen/KKQOPry">
-  Untitled</a> by rushilshakya (<a href="https://codepen.io/rushilshakya">@rushilshakya</a>)
+  querySelector</a> by rushilshakya (<a href="https://codepen.io/rushilshakya">@rushilshakya</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -93,9 +93,9 @@ In the example, the [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/A
 
 An event is just an action that happens in your program or on your web page. This allows your program to run a block of code when "some event" happens. Review the two videos below to see how to add a "listener" to the DOM that "listens" for a specific event.
 
-<iframe width="950" height="534" src="https://www.youtube.com/embed/6tGf7xrLqEY" title="intro-to-event-listeners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Eventlisteners part 1](images/LEVEL-3.png)](https://youtu.be/6tGf7xrLqEY)
 
-<iframe width="950" height="534" src="https://www.youtube.com/embed/h3U3ycLEWQA" title="event-listeners-pt2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Eventlisteners part 2](images/LEVEL-3.png)](https://youtu.be/h3U3ycLEWQA)
 
 <p class="codepen" data-height="200.94921875" data-default-tab="js,result" data-slug-hash="KKQOKze" data-preview="true" data-editable="true" data-user="rushilshakya" style="height: 200.94921875px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/rushilshakya/pen/KKQOKze">
