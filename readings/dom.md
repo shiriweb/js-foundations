@@ -59,14 +59,7 @@ When using a new method, it should be your first instinct to check the documenta
 - Does it accept arguments? --> yes, the name of an ID attribute
 - What does it return? It returns an [element](https://developer.mozilla.org/en-US/docs/Web/API/Element) object.
 
-Every method selector either returns one element or a list of elements, review their documentation. Here is an example of using the querySelector method. The example below uses console.log to log the outputs, visit the Codepen link and run the code in Codepen (not in the embedded frame). You can also open your browser's console on this page, and you will see the log statements.
-
-<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="PoQrMyg" data-preview="true" data-editable="true" data-user="rushilshakya" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/rushilshakya/pen/PoQrMyg">
-  html css dom</a> by rushilshakya (<a href="https://codepen.io/rushilshakya">@rushilshakya</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+Every method selector either returns one element or a list of elements, review their documentation. Here is an example of using the querySelector method. [This example](https://codepen.io/rushilshakya/pen/PoQrMyg) uses console.log to log the outputs, visit the [Codepen link](https://codepen.io/rushilshakya/pen/PoQrMyg) and run the code in Codepen. You can also open your browser's console on this page, and you will see the log statements.
 
 ## Manipulating DOM Elements
 
@@ -78,12 +71,7 @@ When your HTML loads in the browser, it loads top to bottom.
 - the `<body>` element loads, and all of the HTML elements in the `<body>` are added to the DOM
 - at the end of the body, `<script>` tags load all the javascript files
 
-Since the `<script>` element loads only one time, the javascript files execute once. If we have code that is executed in the js file, it only runs once. In order to run code based on a user action, such as a button click, keyboard event, form submission, etc. For example in the code example below:
-
-<iframe
-  src="https://codepen.io/rushilshakya/pen/KKQOPry"
-  style="width:100%; height:300px;"
-></iframe>
+Since the `<script>` element loads only one time, the javascript files execute once. If we have code that is executed in the js file, it only runs once. In order to run code based on a user action, such as a button click, keyboard event, form submission, etc. For example visit [this codepen example](https://codepen.io/rushilshakya/pen/KKQOPry)
 
 In the example, the [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)'s [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property is used to update the background color of the `<p>` element. The js code executes when the `<script>` element loads. If we wanted the background color to be red, we could have made the background color in our CSS file. How can we have the updateTheColor function execute after our document is done loading? For example, let's say we wanted the background color to change to red when a user clicked the page. In order to achieve this behavior, we need to look at events and event handlers.
 
@@ -95,11 +83,6 @@ An event is just an action that happens in your program or on your web page. Thi
 
 [![Eventlisteners part 2](images/LEVEL-3.png)](https://youtu.be/h3U3ycLEWQA)
 
-<p class="codepen" data-height="200.94921875" data-default-tab="js,result" data-slug-hash="KKQOKze" data-preview="true" data-editable="true" data-user="rushilshakya" style="height: 200.94921875px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/rushilshakya/pen/KKQOKze">
-  eventListener challenge</a> by rushilshakya (<a href="https://codepen.io/rushilshakya">@rushilshakya</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+Now, go to [this codepen link](https://codepen.io/rushilshakya/pen/KKQOKze) to complete the coding challenge
 
 For more details - you can read about [DOM at MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
