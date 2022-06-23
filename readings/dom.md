@@ -71,7 +71,7 @@ When your HTML loads in the browser, it loads top to bottom.
 - the `<body>` element loads, and all of the HTML elements in the `<body>` are added to the DOM
 - at the end of the body, `<script>` tags load all the javascript files
 
-Since the `<script>` element loads only one time, the javascript files execute once. If we have code that is executed in the js file, it only runs once. In order to run code based on a user action, such as a button click, keyboard event, form submission, etc. For example visit [this codepen example](https://codepen.io/rushilshakya/pen/KKQOPry)
+Since the `<script>` element loads only one time, the javascript files execute once. If we have code that is executed in the js file, it only runs once. In order to run code based on a user action, such as a button click, keyboard event, form submission, etc. For example visit [this codepen example.](https://codepen.io/rushilshakya/pen/KKQOPry)
 
 In the example, the [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)'s [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) property is used to update the background color of the `<p>` element. The js code executes when the `<script>` element loads. If we wanted the background color to be red, we could have made the background color in our CSS file. How can we have the updateTheColor function execute after our document is done loading? For example, let's say we wanted the background color to change to red when a user clicked the page. In order to achieve this behavior, we need to look at events and event handlers.
 
