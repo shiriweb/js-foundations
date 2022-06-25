@@ -4,7 +4,7 @@ TestFirst JavaScript is a multi-part series that provides practice to intermedia
 
 ### Before beginning your assignment, make sure you have completed these steps:
 
-1. Forked & cloned the TestFirst repository.
+1. Forked & cloned the [js-foundations](https://github.com/TEJ-Fellowship/js-foundations)
 2. Installed node and a text editor.
 
 ### Setup Test First
