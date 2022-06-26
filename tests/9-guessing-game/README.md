@@ -6,9 +6,7 @@ The Guessing Game Project is a two-part project. The game is simple. The user gu
 
 ### ASSIGNMENT
 
-The first portion involves creating the HTML and CSS for the Guessing Game. During this section, do not worry about adding any functionality (JavaScript), focus on adding the HTML and CSS elements and an appealing design to your project!
-
-This folder (9-guessing-game) provides a starter repository that provides the base structure for your project. Take your HTML and CSS knowledge and apply them to the requirements outlined below.
+The first portion involves creating the HTML and CSS for the Guessing Game. During this section, do not worry about adding any functionality (JavaScript), focus on adding the HTML and CSS elements and an appealing design to your project
 
 ### PROJECT REQUIREMENTS:
 
@@ -30,7 +28,7 @@ This folder (9-guessing-game) provides a starter repository that provides the ba
 
 <details><summary>Click to expand</summary>
 
-Even though you already have the project directory in this repo, lets create a new git repository and project from scratch. Then do part 1 of this project, which is to add the HTML and CSS. Move on to part 2 after you are done with part1 to to add the JS functionality.
+Even though you already have the project directory in this repo, lets create a new git repository and project from scratch. Then do part 1 of this project, which is to add the HTML and CSS. Move on to part 2 after you are done with part 1 to to add the JS functionality.
 
 - create a new folder called 'guessing-game'
 - go to this folder using your terminal
@@ -63,8 +61,8 @@ Even though you already have the project directory in this repo, lets create a n
 
 - using .gitignore
   - at this point, in your git window in VSCode, you will see over 2000 files to commit. That is because git sees all the testem library files in `node_modules` directory. We don't need to commit these files, since we can always install them from the `testem` reference in package.json.
-  - let's ignore this folder by entering `node_modules` in our .gitignore file
-  - commit again at this point
+  - let's ignore this folder by entering `node_modules` in our .gitignore file; now the number of files to commit should come down to only 3 or 4 files
+  - commit again at this point - you have just created a javascript project from scratch with a git repository committed into github!
 
 </details>
 
