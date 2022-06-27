@@ -353,8 +353,15 @@ myElement.addEventlistener("click", function (e) {
 <details><summary>LECTURE NOTES: Click to expand</summary>
 </details>
 <details><summary>TODO: Click to expand</summary>
+
+- [Instructions for pixelate](readings/pixelate.md)
+- please fork this [repository](https://github.com/TEJ-Fellowship/pixelate) to start your solution
+
 </details>
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [Solution for pixelate](https://github.com/TEJ-Fellowship/pixelate.solution)
+
 </details>
 
 ### **_GAME-OF-LIFE_**
