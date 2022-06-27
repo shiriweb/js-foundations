@@ -43,6 +43,8 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ## Foundations
 
+<details><summary>Click to expand</summary>
+
 ### **_testfirst-part-1_**
 
 <details><summary>TO STUDY: Click to expand</summary>
@@ -299,5 +301,70 @@ class TEJstudent extends Student {
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 
 - [guessing game](solutions/guessing-game/)
+
+</details>
+
+</details>
+
+---
+
+## Vanilla JavaScript projects
+
+<details><summary>Click to expand</summary>
+
+### **_WHACK-A-MOLE_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+<details><summary>LECTURE NOTES: Click to expand</summary>
+</details>
+<details><summary>TODO: Click to expand</summary>
+</details>
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+</details>
+
+### **_PIXELATE_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+<details><summary>LECTURE NOTES: Click to expand</summary>
+</details>
+<details><summary>TODO: Click to expand</summary>
+</details>
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+</details>
+
+### **_GAME-OF-LIFE_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+<details><summary>LECTURE NOTES: Click to expand</summary>
+</details>
+<details><summary>TODO: Click to expand</summary>
+</details>
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+</details>
+
+### **_COFFEE-TIME_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+<details><summary>LECTURE NOTES: Click to expand</summary>
+</details>
+<details><summary>TODO: Click to expand</summary>
+</details>
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+</details>
+
+### **_TEMPLATE_**
+
+<details><summary>TO STUDY: Click to expand</summary>
+</details>
+<details><summary>LECTURE NOTES: Click to expand</summary>
+</details>
+<details><summary>TODO: Click to expand</summary>
+</details>
+<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+</details>
 
 </details>
