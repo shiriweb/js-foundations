@@ -315,12 +315,35 @@ class TEJstudent extends Student {
 ### **_WHACK-A-MOLE_**
 
 <details><summary>TO STUDY: Click to expand</summary>
+
+### Concepts to know for this exercise
+
+- `document.querySelectorAll`
+- _element_.classList
+- _element_.classList.toggle(_className_)
+- `setInterval`(_function_, _time in milliseconds_)
+- `addEventlistener` will pass the `event` as argument to it's function in
+
+```js
+myElement.addEventlistener("click", function (e) {
+  console.dir(e);
+});
+```
+
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
 </details>
 <details><summary>TODO: Click to expand</summary>
+
+- [Instructions for whack-a-mole](readings/whack-a-mole.md)
+- please fork this [repository](https://github.com/TEJ-Fellowship/whack-a-mole) to start your solution
+
 </details>
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- the basic solution is in the [solution](https://github.com/TEJ-Fellowship/whack-a-mole/tree/solution) branch
+- the solution with timer is in the [solution with timer](https://github.com/TEJ-Fellowship/whack-a-mole/tree/solutionWithTimer) branch
+
 </details>
 
 ### **_PIXELATE_**
