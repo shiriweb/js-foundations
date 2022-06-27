@@ -85,32 +85,24 @@ If the origin of the click has a 'mole' class, it means that the user successful
 <details><summary>To see hint: click to expand</summary>
 
 ```js
-llet score = 0;
-const scoreDisplay = document.getElementById('score');
+let score = 0;
+const scoreDisplay = document.getElementById("score");
 
-const holes = document.getElementsByClassName('hole');
+const holes = document.getElementsByClassName("hole");
 
-setInterval(function() {
+setInterval(function () {
   const randomHoleIndex = Math.floor(Math.random() * holes.length);
-  holes[randomHoleIndex].classList.toggle('mole');
+  holes[randomHoleIndex].classList.toggle("mole");
 }, 300);
 
-const gameArea = document.getElementById('whack-a-mole');
-gameArea.addEventListener('click', function(clickEvent) {
-  if (clickEvent.target.matches('.mole')) {
-    clickEvent.target.classList.remove('mole');
+const gameArea = document.getElementById("whack-a-mole");
+gameArea.addEventListener("click", function (clickEvent) {
+  if (clickEvent.target.matches(".mole")) {
+    clickEvent.target.classList.remove("mole");
     score++;
     scoreDisplay.innerText = score;
   }
 });
-```
-
-</details>
-
-<details><summary>To see hint: click to expand</summary>
-
-```js
-
 ```
 
 </details>
