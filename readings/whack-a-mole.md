@@ -31,7 +31,17 @@ We will manipulate the DOM to randomly assign the class "mole" to one of our `<d
 
 In the JavaScript file, start by getting all DOM nodes that contain the "hole" class (document.querySelectorAll comes to mind...). Assign the returned Array-like object to a variable.
 
-Now, we want to assign this list to a holes variable. You can convert it to an Array before assigning (and that's usually a good idea), but in this lab in particular you're not going to need any array methods.
+Now, we want to assign this list to a `holes` variable. You can convert it to an Array before assigning (and that's usually a good idea), but in this lab in particular you're not going to need any array methods.
+
+<details><summary>To see hint: click to expand</summary>
+
+```js
+const holes = document.querySelectorAll(".hole");
+```
+
+</details>
+
+Next, we want to get a random number between zero and the amount of holes we have, and toggle the "mole" class in that specific `<div>`.
 
 <details><summary>To see hint: click to expand</summary>
 
