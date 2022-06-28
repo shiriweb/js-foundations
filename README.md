@@ -349,6 +349,14 @@ myElement.addEventlistener("click", function (e) {
 ### **_PIXELATE_**
 
 <details><summary>TO STUDY: Click to expand</summary>
+
+### Concepts to know for this exercise
+
+- styling - height, width, background-color
+- document.createElement
+- parentElement.appendChild(newElement)
+- HTML elements `tr` and `td`
+
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
 </details>
