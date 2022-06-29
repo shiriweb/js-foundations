@@ -43,10 +43,9 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ## Foundations
 
-<details><summary>Click to expand</summary>
-
 ### **_testfirst-part-1_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 - Object creation
@@ -114,9 +113,12 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 - [testfirst part 1](solutions/testfirst-part-1/)
 
 </details>
+</details>
+</br>
 
 ### **_testfirst-part-2_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 - [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
@@ -189,9 +191,12 @@ someFunc('hello', 'there', 'you');
 - [vanishing man](solutions/vanishing-man/)
 
 </details>
+</details>
+</br>
 
 ### **_testfirst-part-3_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 - [Class](readings/testfirst-part-3-classes.md)
@@ -251,9 +256,12 @@ class TEJstudent extends Student {
 - [testfirst review](solutions/testfirst-review/)
 
 </details>
+</details>
+</br>
 
 ### **_HTML / CSS_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 - [HTML / CSS](readings/html-css.md)
@@ -277,9 +285,12 @@ class TEJstudent extends Student {
 - [guessing game](solutions/guessing-game/)
 
 </details>
+</details>
+</br>
 
 ### **_DOM_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 - [DOM](readings/dom.md)
@@ -303,17 +314,16 @@ class TEJstudent extends Student {
 - [guessing game](solutions/guessing-game/)
 
 </details>
-
 </details>
+</br>
 
 ---
 
 ## Vanilla JavaScript projects
 
-<details><summary>Click to expand</summary>
-
 ### **_WHACK-A-MOLE_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 ### Concepts to know for this exercise
@@ -345,9 +355,12 @@ myElement.addEventlistener("click", function (e) {
 - the solution with timer is in the [solution with timer](https://github.com/TEJ-Fellowship/whack-a-mole/tree/solutionWithTimer) branch
 
 </details>
+</details>
+<br/>
 
 ### **_PIXELATE_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 ### Concepts to know for this exercise
@@ -371,9 +384,12 @@ myElement.addEventlistener("click", function (e) {
 - [Solution for pixelate](https://github.com/TEJ-Fellowship/pixelate.solution)
 
 </details>
+</details>
+<br/>
 
 ### **_GAME-OF-LIFE_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
 ### Concepts to know for this exercise
@@ -394,9 +410,12 @@ myElement.addEventlistener("click", function (e) {
 - [Solution for game-of-life](https://github.com/TEJ-Fellowship/game-of-life.solution)
 
 </details>
+</details>
+<br/>
 
 ### **_COFFEE-TIME_**
 
+<details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
@@ -405,16 +424,4 @@ myElement.addEventlistener("click", function (e) {
 </details>
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 </details>
-
-### **_TEMPLATE_**
-
-<details><summary>TO STUDY: Click to expand</summary>
-</details>
-<details><summary>LECTURE NOTES: Click to expand</summary>
-</details>
-<details><summary>TODO: Click to expand</summary>
-</details>
-<details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
-</details>
-
 </details>
