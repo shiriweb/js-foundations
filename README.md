@@ -395,6 +395,7 @@ myElement.addEventlistener("click", function (e) {
 ### Concepts to know for this exercise
 
 - what is ['game of life'](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)?
+- [_Element_.dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset) attribute
 
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
