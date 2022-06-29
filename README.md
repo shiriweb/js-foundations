@@ -414,15 +414,28 @@ myElement.addEventlistener("click", function (e) {
 </details>
 <br/>
 
-### **_COFFEE-TIME_**
+### **_COFFEE-CLICKER_**
 
 <details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
+
+- You are building [this game](https://TEJ-Fellowship.github.io/coffee-clicker.solution/)
+- [_String_.split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+- [Removing all children from an element](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
+- [Using localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
 </details>
 <details><summary>TODO: Click to expand</summary>
+
+- [Instructions for coffee-clicker](https://github.com/TEJ-Fellowship/coffee-clicker/blob/main/README.md)
+- please fork this [repository](https://github.com/TEJ-Fellowship/coffee-clicker) to start your project
+
 </details>
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [Solution for coffee-clicker](https://github.com/TEJ-Fellowship/coffee-clicker.solution)
+
 </details>
 </details>
