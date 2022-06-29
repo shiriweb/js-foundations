@@ -375,12 +375,24 @@ myElement.addEventlistener("click", function (e) {
 ### **_GAME-OF-LIFE_**
 
 <details><summary>TO STUDY: Click to expand</summary>
+
+### Concepts to know for this exercise
+
+- what is ['game of life'](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)?
+
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
 </details>
 <details><summary>TODO: Click to expand</summary>
+
+- [Instructions for game-of-life](readings/game-of-life.md)
+- please fork this [repository](https://github.com/TEJ-Fellowship/game-of-life) to start your project
+
 </details>
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
+
+- [Solution for game-of-life](https://github.com/TEJ-Fellowship/game-of-life.solution)
+
 </details>
 
 ### **_COFFEE-TIME_**
