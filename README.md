@@ -403,6 +403,7 @@ myElement.addEventlistener("click", function (e) {
 <details><summary>TODO: Click to expand</summary>
 
 - [Instructions for game-of-life](readings/game-of-life.md)
+- [See what we will be building](https://tej-fellowship.github.io/game-of-life.solution/)
 - please fork this [repository](https://github.com/TEJ-Fellowship/game-of-life) to start your project
 
 </details>

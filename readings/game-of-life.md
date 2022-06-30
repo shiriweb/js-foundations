@@ -39,7 +39,7 @@ Step 3 is a stable state.
 
 We've setup an [initial project on Github](https://github.com/TEJ-Fellowship/game-of-life) for you to fork.
 
----
+## Your finishes work could look something like [this](https://tej-fellowship.github.io/game-of-life.solution/)
 
 ## Development approach
 
