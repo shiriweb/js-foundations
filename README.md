@@ -402,8 +402,8 @@ myElement.addEventlistener("click", function (e) {
 </details>
 <details><summary>TODO: Click to expand</summary>
 
+- [See what you will be building](https://tej-fellowship.github.io/game-of-life.solution/)
 - [Instructions for game-of-life](readings/game-of-life.md)
-- [See what we will be building](https://tej-fellowship.github.io/game-of-life.solution/)
 - please fork this [repository](https://github.com/TEJ-Fellowship/game-of-life) to start your project
 
 </details>
@@ -420,7 +420,6 @@ myElement.addEventlistener("click", function (e) {
 <details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
-- You are building [this game](https://TEJ-Fellowship.github.io/coffee-clicker.solution/)
 - [_String_.split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 - [Removing all children from an element](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild)
 - [Using localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
@@ -430,6 +429,7 @@ myElement.addEventlistener("click", function (e) {
 </details>
 <details><summary>TODO: Click to expand</summary>
 
+- [See what you will be building](https://TEJ-Fellowship.github.io/coffee-clicker.solution/)
 - [Instructions for coffee-clicker](https://github.com/TEJ-Fellowship/coffee-clicker/blob/main/README.md)
 - please fork this [repository](https://github.com/TEJ-Fellowship/coffee-clicker) to start your project
 
