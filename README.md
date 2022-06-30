@@ -396,6 +396,7 @@ myElement.addEventlistener("click", function (e) {
 
 - what is ['game of life'](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)?
 - [_Element_.dataset](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset) attribute
+- how can we include js script at the top of our index.html? what does the keyword [`defer`](https://www.w3schools.com/tags/att_script_defer.asp) do?
 
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
