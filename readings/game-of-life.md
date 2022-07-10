@@ -132,32 +132,6 @@ On the next section, let's get started by the `makeBoard` function.
 
 Now it's time to start coding - Your first step is to be able to generate the `2D array` representing the board. Take a look at the comments in the provided `makeBoard` function for guidance and put your hands to work.
 
-<details><summary>Can a 2D board fit in a 1D array: click to see</summary>
-
-All sample codes in the workshop uses a 2D array, but it is absolutely possible to store the board in a 1D array like this:
-
-```
-[0, 1, 0,
- 0, 0, 1,
- 1, 1, 1];
-```
-
-This may seem strange, given that the board is conceptually 2D. But here's the thing, if you know the width and height of the board, you can map a coordinate [row, col] to a 1D index:
-
-```js
-indexFor(row, col) {
-  // Return undefined if we're out of bounds
-  if (row < 0 || row >= this.height || col < 0 || col >= this.width) {
-    return undefined;
-  }
-  return row * this.width + col;
-}
-```
-
-There are advantages to using an 1D array, but make sure you're absolutelly confortable with the idea of constantly mapping coordinates to your 1D array before moving on. If you're in doubt, pick the simpler approach and use a 2D array.
-
-</details>
-
 ---
 
 ## How to test if i did it right?
