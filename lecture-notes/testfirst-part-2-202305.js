@@ -9,7 +9,7 @@ DAY1
   - gather operator: arrow function
 - few extras
   - js template literal
-  - ternary operation
+  - ternary operator
 - read on your own string and array methods like join, split, splice etc
 
 DAY2
@@ -18,6 +18,29 @@ DAY2
   - filter
   - reduce
 */
+
+/*
+Old way of creating multiple functions
+without using prototype hierarchy
+*/
+let hemlal = {
+  fName: "Hemlal",
+  batch: 2023,
+  sayHello() {
+    console.log(`Hello my name is, ${this.fName}`);
+  },
+};
+
+let lishu = {
+  fName: "Lishu",
+  batch: 2023,
+  sayHello() {
+    console.log(`Hello my name is, ${this.fName}`);
+  },
+};
+
+hemlal.sayHello();
+lishu.sayHello();
 
 /*
 Writing a constructor function
@@ -35,12 +58,17 @@ function MakeFellow(fName, batch) {
   this.batch = batch;
 }
 
+//adding properties to the prototype
+//so that it is available for all objects
+//that are created from the constructor function
 MakeFellow.prototype.sayHello = function () {
-  console.log(`Hello my name is, ${this.fName}`);
+  console.log(`Hello my name is, ${this.fName}`); //using template literal to access variable inside string
 };
 
 MakeFellow.prototype.fellowship = "TEJ";
 
+//use constructor function by using
+//the keyword 'new' in front of the function name
 let hemlal2 = new MakeFellow("Hemlal", 2023);
 let lishu2 = new MakeFellow("Lishu", 2023);
 
@@ -51,70 +79,75 @@ lishu2.sayHello();
 console.log(hemlal2.fellowship);
 console.log(lishu2.fellowship);
 
-// console.log(hemlal2.hasOwnProperty("fName"));
-// console.log(hemlal2.hasOwnProperty("fellowship"));
+//properties from the prototype are not
+//in the created objects, they are up
+//the prototype chain
+console.log(hemlal2.hasOwnProperty("fName"));
+console.log(hemlal2.hasOwnProperty("fellowship"));
 
-// function someFunc() {}
+/*
+we can put prototype properties even in
+Array and Object that will be available
+for all Objects and Arrays
+*/
+let a = [1, 2, 3];
+let b = [2, 2, 3];
+a.push(4);
+b.push(5);
 
-// someFunc();
-// debugger;
-// let hemlal = {
-//   fName: "Hemlal",
-//   batch: 2023,
-//   sayHello() {
-//     console.log(`Hello my name is, ${this.fName}`);
-//   },
-// };
+//if adding property to Object.prototype
+//it will be available to ALL objects, arrays, and functions
+//because Object is the root prototype of all complex data
+Object.prototype.showAll = function () {
+  console.log(`this array has the elements ${this}`);
+};
 
-// let lishu = {
-//   fName: "Lishu",
-//   batch: 2023,
-//   sayHello() {
-//     console.log(`Hello my name is, ${this.fName}`);
-//   },
-// };
-
-// hemlal.sayHello();
-// lishu.sayHello();
-
-// let a = [1, 2, 3];
-// let b = [2, 2, 3];
-// a.push(4);
-// b.push(5);
-
-// Object.prototype.showAll = function () {
+/*
+if adding property to Array.prototype
+it will be available to all arrays but not to
+other types of objects
+*/
+// Array.prototype.showAll = function () {
 //   console.log(`this array has the elements ${this}`);
 // };
 
-// a.showAll();
-// b.showAll();
-// hemlal2.showAll();
+a.showAll();
+b.showAll();
+hemlal2.showAll();
 
-// hemlal2.func = function () {
-//   console.log(`this array has the elements ${Object.keys(this)}`);
-// };
-
-// hemlal2.func();
-
+/*
+using the 'arguments' keyword and the ...gather operator
+to get all the arguments passed to functions
+*/
 function printAllParams(...p1) {
+  //p1 is array with all arguments passed to function
   console.log(p1);
+  //arguments keyword is array like data with all arguments passed to function
+  //but this will only be available in regular function, not arrow function
   for (let i = 0; i < arguments.length; i++) {
     console.log(arguments[i]);
   }
 }
 
-// printAllParams("Sharmila", 2023, "TEJ");
+printAllParams("Sharmila", 2023, "TEJ");
 
+//p1 is array with all arguments passed to function.
+//the gather operator is available in both arrow function and regular function
 let printAllParamsArrow = (...p1) => {
   p1.push(4);
   console.log(p1);
 };
 
-// printAllParamsArrow("Sharmila", 2023, "TEJ");
+printAllParamsArrow("Sharmila", 2023, "TEJ");
 
+/*
+Ternary operator
+*/
 let isThisTrue = false;
+//ternary operator is shorthand expression for simple if else statement
 let val = isThisTrue === true ? "this is true" : "this is false";
 
+//the above ternary statement is the same as the below if else statement
 // if (isThisTrue === true) {
 //   val = "this is true";
 // } else {
