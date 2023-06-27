@@ -179,16 +179,12 @@ someFunc('hello', 'there', 'you');
 
 - [testfirst part 2](tests/3-testfirst-part-2/)
 - [checkpoint part 2 (optional)](tests/5-checkpoint-pt-2/)
-- [vanishing man](tests/4-vanishing-man/)
-  - string methods: be familiar with methods such as [split](https://www.programiz.com/javascript/library/string/split)
-  - array methods: be familiar with array methods mentioned above
 
 </details>
 
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 
 - [testfirst part 2](solutions/testfirst-part-2/)
-- [vanishing man](solutions/vanishing-man/)
 
 </details>
 </details>
@@ -245,7 +241,10 @@ class TEJstudent extends Student {
 <details><summary>TODO: Click to expand</summary>
 
 - [testfirst part 3](tests/6-testfirst-part-3/)
-- [testfirst review (optional)](tests/7-testfirst-review/)
+- [testfirst review](tests/7-testfirst-review/)
+- [vanishing man](tests/4-vanishing-man/)
+  - string methods: be familiar with methods such as [split](https://www.programiz.com/javascript/library/string/split)
+  - array methods: be familiar with array methods mentioned above
 - [checkpoint final (optional)](tests/8-checkpoint-final/)
 
 </details>
@@ -254,6 +253,7 @@ class TEJstudent extends Student {
 
 - [testfirst part 3](solutions/testfirst-part-3/)
 - [testfirst review](solutions/testfirst-review/)
+- [vanishing man](solutions/vanishing-man/)
 
 </details>
 </details>
