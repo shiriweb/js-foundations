@@ -241,10 +241,10 @@ class TEJstudent extends Student {
 <details><summary>TODO: Click to expand</summary>
 
 - [testfirst part 3](tests/6-testfirst-part-3/)
-- [testfirst review](tests/7-testfirst-review/)
 - [vanishing man](tests/4-vanishing-man/)
   - string methods: be familiar with methods such as [split](https://www.programiz.com/javascript/library/string/split)
   - array methods: be familiar with array methods mentioned above
+- [testfirst review](tests/7-testfirst-review/)
 - [checkpoint final (optional)](tests/8-checkpoint-final/)
 
 </details>
@@ -252,8 +252,8 @@ class TEJstudent extends Student {
 <details><summary>SOLUTIONS (only look if needed): Click to expand</summary>
 
 - [testfirst part 3](solutions/testfirst-part-3/)
-- [testfirst review](solutions/testfirst-review/)
 - [vanishing man](solutions/vanishing-man/)
+- [testfirst review](solutions/testfirst-review/)
 
 </details>
 </details>
