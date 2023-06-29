@@ -293,13 +293,16 @@ class TEJstudent extends Student {
 <details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
-- [DOM](readings/dom.md)
+### Concepts to know for this exercise
 
+- [DOM](readings/dom.md)
+- [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+- [Math.ceil()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+- Math.abs
+- For shuffle, you can copy paste the final function [here](https://bost.ocks.org/mike/shuffle/)
 </details>
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
-
-- [DOM]()
 
 </details>
 
