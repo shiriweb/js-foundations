@@ -298,7 +298,7 @@ class TEJstudent extends Student {
 - [DOM](readings/dom.md)
 - [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - [Math.ceil()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
-- Math.abs
+- [Math.abs()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)
 - For shuffle, you can copy paste the final function [here](https://bost.ocks.org/mike/shuffle/)
 </details>
 
