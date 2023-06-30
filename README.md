@@ -270,8 +270,6 @@ class TEJstudent extends Student {
 
 <details><summary>LECTURE NOTES: Click to expand</summary>
 
-- [HTML / CSS]()
-
 </details>
 
 <details><summary>TODO: Click to expand</summary>
