@@ -337,7 +337,15 @@ myElement.addEventlistener("click", function (e) {
 });
 ```
 
-- event delegation / event propagation
+- [event propagation](https://www.loginradius.com/blog/engineering/javascript-events-bubbling-capturing-and-propagation/)
+  - [event bubbling](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling)
+  - [event capture](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_capture)
+- [event delegation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_delegation)
+
+### Advanced concepts
+
+- clearInterval
+- removeEventListener
 
 ### Methods you will need to use
 

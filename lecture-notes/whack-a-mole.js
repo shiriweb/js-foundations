@@ -1,7 +1,11 @@
 /*
 Concepts to learn
-- event delegation / event propagation
 - addEventlistener will pass the event as argument to it's function
+- event propagation / event delegation
+
+Advanced concepts
+- clearInterval
+- removeEventListener
 
 Methods you will need to use
 - document.querySelectorAll
