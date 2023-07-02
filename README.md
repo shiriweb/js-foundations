@@ -329,10 +329,9 @@ class TEJstudent extends Student {
 
 ### Concepts to know for this exercise
 
-- `document.querySelectorAll`
-- _element_.classList
-- _element_.classList.toggle(_className_)
-- `setInterval`(_function_, _time in milliseconds_)
+#### **Concepts to learn**
+
+- event delegation / event propagation
 - `addEventlistener` will pass the `event` as argument to it's function in
 
 ```js
@@ -341,8 +340,18 @@ myElement.addEventlistener("click", function (e) {
 });
 ```
 
+#### **Methods you will need to use**
+
+- `document.querySelectorAll`
+- _element_.classList
+- _element_.classList.toggle(_className_)
+- `setInterval`(_function_, _time in milliseconds_)
+
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
+
+- [Whack a mole](lecture-notes/whack-a-mole.js)
+
 </details>
 <details><summary>TODO: Click to expand</summary>
 
