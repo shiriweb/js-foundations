@@ -329,7 +329,6 @@ class TEJstudent extends Student {
 
 ### Concepts to learn for this exercise
 
-- event delegation / event propagation
 - `addEventlistener` will pass the `event` as argument to it's function in
 
 ```js
@@ -337,6 +336,8 @@ myElement.addEventlistener("click", function (e) {
   console.dir(e);
 });
 ```
+
+- event delegation / event propagation
 
 ### Methods you will need to use
 
