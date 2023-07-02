@@ -327,9 +327,7 @@ class TEJstudent extends Student {
 <details><summary>Click to expand</summary>
 <details><summary>TO STUDY: Click to expand</summary>
 
-### Concepts to know for this exercise
-
-#### **Concepts to learn**
+### **Concepts to learn for this exercise**
 
 - event delegation / event propagation
 - `addEventlistener` will pass the `event` as argument to it's function in
@@ -340,7 +338,7 @@ myElement.addEventlistener("click", function (e) {
 });
 ```
 
-#### **Methods you will need to use**
+### **Methods you will need to use**
 
 - `document.querySelectorAll`
 - _element_.classList
