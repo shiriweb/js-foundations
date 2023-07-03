@@ -382,10 +382,10 @@ myElement.addEventlistener("click", function (e) {
 
 ### Concepts to know for this exercise
 
-- styling - height, width, background-color
-- document.createElement
-- parentElement.appendChild(newElement)
-- HTML elements `tr` and `td`
+- styling - [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height), [width](https://developer.mozilla.org/en-US/docs/Web/CSS/width), [background-color](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+- [document.createElement](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
+- [parentElement.appendChild(newElement)](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+- HTML elements [tr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr) and [td](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td)
 
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
