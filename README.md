@@ -389,6 +389,7 @@ myElement.addEventlistener("click", function (e) {
 
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
+[Pixelate lecture notes](https://github.com/TEJ-Fellowship/pixelate/blob/lecture-notes-202305/script.js)
 </details>
 <details><summary>TODO: Click to expand</summary>
 
