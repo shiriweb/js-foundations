@@ -357,7 +357,7 @@ myElement.addEventlistener("click", function (e) {
 </details>
 <details><summary>LECTURE NOTES: Click to expand</summary>
 
-- [Whack a mole](lecture-notes/whack-a-mole.js)
+- [Whack a mole](https://github.com/TEJ-Fellowship/whack-a-mole/blob/lecture-notes-20230703/index.js)
 
 </details>
 <details><summary>TODO: Click to expand</summary>
