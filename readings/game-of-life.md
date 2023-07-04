@@ -181,7 +181,7 @@ This should happen when the `tick` method is called, but the implementation will
 
 ### How to test?
 
-Since we're not connecting the `GameOfLife` `class` to the DOM yet, there is no visualization for your board. In order to test whether your t`ick implementation is working you're gonna have to write some code.
+Since we're not connecting the `GameOfLife` `class` to the DOM yet, there is no visualization for your board. In order to test whether your `tick` implementation is working you're going to have to write some code.
 
 ---
 
