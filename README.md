@@ -2,6 +2,88 @@
 
 TestFirst JavaScript is a multi-part series that provides practice to intermediate to advanced javascript concepts. The majority of concepts introduced in TestFirst have practice exercises. However, there will be new concepts introduced in TestFirst that you will need to learn on your own by reading documentation (it's important to begin learning how to read documentation efficiently!)
 
+<details><summary><h3 style="display:inline">1. Create Calendar for study plan</h3></summary>
+
+- This is a sample calendar for the JS-Foundation course. You can use this template to create a customized study schedule that fits your needs. The plan consists 5 days a week, with Saturday and Sunday off.
+
+- Recommended Study Plan: Dedicate at least 8 hours per day to each topic: 2 hours for studying lecture notes and 6 hours for practicing exercises. By following this plan, you can complete all exercises in approximately 16 days (2 weeks).
+
+- Alternative Study Plan-1 (4 Hours Per Day): If you can only commit to 4 hours a day, allocate 2 hour for studying the lecture notes and 2 hours for exercises. In this case, you will need around 32 days(approximately 1 month) to finish all exercises.
+
+- Alternative Study Plan-2 (1 Day Per Week): If you prefer studying only one day per week, dedicate 8 hours on that day. With this schedule, you can complete the one part testcases in two weeks, finishing all exercises in around of 16 weeks(approximately 4 month) to complete the exercises.
+
+## Suggested sample schedule
+
+| **Day** | **8-Hours Daily Plan**(2 Weeks)                 | **4-Hours Daily Plan**(1 Month)                 | **1-Day Weekly Plan**(4 Months)                 |
+| ------- | ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| Day 1   | Test first part-1: Lecture Notes & Exercises    | Test first part-1: Lecture Notes & Exercises    | Test first part-1: Lecture Notes & Exercises    |
+| Day 2   | Test first part-1: Exercises                    | Test first part-1: Exercises                    | -                                               |
+| Day 3   | Test first part-2: Lecture Notes & Exercises    | Test first part-1: Exercises                    | -                                               |
+| Day 4   | Test first part-2: Exercises                    | Test first part-1: Exercises                    | -                                               |
+| Day 5   | Test first part-2: Exercises                    | Test first part-2: Lecture Notes & Exercises    | -                                               |
+| Day 6   | Weekend activity: Check point test first part-1 | Weekend activity: Check point test first part-1 | Weekend activity: Check point test first part-1 |
+| Day 7   | Weekend activity: Check point test first part-1 | Weekend activity: Check point test first part-1 | Weekend activity: Check point test first part-1 |
+| Day 8   | Test first part-3: Lecture Notes & Exercises    | Test first part-2: Exercises                    | Test first part-1: Exercises                    |
+| Day 9   | Test first part-3: Exercises                    | Test first part-2: Exercises                    | -                                               |
+| Day 10  | Test first part-3: Exercises                    | Test first part-2: Exercises                    | -                                               |
+| Day 11  | Introduction: Html, Css, Dom & Exercises        | Test first part-2: Exercises                    | -                                               |
+| Day 12  | Whack a mole: Lecture Notes & Exercises         | Test first part-3: Lecture Notes & Exercises    | -                                               |
+| Day 13  | Weekend activity: check point test first part-2 | Weekend activity: Check point test first part-1 | Weekend activity: check point test first part-2 |
+| Day 14  | Weekend activity: check point test first part-3 | Weekend activity: Check point test first part-1 | Weekend activity: check point test first part-3 |
+| Day 15  | Pixelate: Lecture Notes & Exercises             | Test first part-3: Exercises                    | Test first part-2: Lecture Notes & Exercises    |
+| Day 16  | Pixelate: Exercises                             | Test first part-3: Exercises                    | -                                               |
+| Day 17  | Game of life: Lecture Notes & Exercises         | Test first part-3: Exercises                    | -                                               |
+| Day 18  | Game of life: Exercises                         | Test first part-3: Exercises                    | -                                               |
+| Day 19  | Coffee clicker: Lecture Notes & Exercises       | Introduction: Html, Css, Dom & Exercises        | -                                               |
+| Day 20  | -                                               | Weekend activity: check point test first part-2 | -                                               |
+| Day 21  | -                                               | Weekend activity: check point test first part-2 | -                                               |
+| Day 22  | Coffee clicker: Exercises                       | Introduction: Exercises                         | Test first part-2: Exercises                    |
+| Day 23  | -                                               | Whack a mole: Lecture Notes & Exercises         | -                                               |
+| Day 24  | -                                               | Whack a mole: Exercises                         | -                                               |
+| Day 25  | -                                               | Pixelate: Lecture Notes & Exercises             | -                                               |
+| Day 26  | -                                               | Pixelate: Exercises                             | -                                               |
+| Day 27  | -                                               | Weekend activity: check point test first part-3 | -                                               |
+| Day 28  | -                                               | Weekend activity: check point test first part-3 | -                                               |
+| Day 29  | -                                               | Pixelate: Exercises                             | Test first part-2: Exercises                    |
+| Day 30  | -                                               | Pixelate: Exercises                             | -                                               |
+| Day 31  | -                                               | Game of life: Lecture Notes & Exercises         | -                                               |
+| Day 32  | -                                               | Game of life: Exercises                         | -                                               |
+| Day 33  | -                                               | Game of life: Exercises                         | -                                               |
+| Day 34  | -                                               | -                                               | -                                               |
+| Day 35  | -                                               | -                                               | -                                               |
+| Day 36  | -                                               | Game of life: Exercises                         | Test first part-3: Lecture Notes & Exercises    |
+| Day 37  | -                                               | Coffee clicker: Lecture Notes & Exercises       | -                                               |
+| Day 38  | -                                               | Coffee clicker: Exercises                       | -                                               |
+| Day 39  | -                                               | Coffee clicker: Exercises                       | -                                               |
+| Day 40  | -                                               | Coffee clicker: Exercises                       | -                                               |
+| ...     | -                                               | -                                               | -                                               |
+| ...     | -                                               | -                                               | -                                               |
+| Day 43  | -                                               | -                                               | Test first part-3: Exercises                    |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 50  | -                                               | -                                               | Test first part-3: Exercises                    |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 57  | -                                               | -                                               | Introduction: Html, Css, Dom & Exercises        |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 64  | -                                               | -                                               | Whack a mole: Lecture Notes & Exercises         |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 71  | -                                               | -                                               | Pixelate: Lecture Notes & Exercises             |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 78  | -                                               | -                                               | Pixelate: Exercises                             |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 85  | -                                               | -                                               | Game of life: Lecture Notes & Exercises         |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 92  | -                                               | -                                               | Game of life: Exercises                         |
+| ...     | -                                               | -                                               | ...                                             |
+| Day 99  | -                                               | -                                               | Coffee clicker: Lecture Notes & Exercises       |
+| ...     | -                                               | -                                               | ...                                             |
+| 106     | -                                               | -                                               | Coffee clicker: Exercises                       |
+
+</details>
+
+---
+
+<details><summary><h3 style="display:inline">2. Follow the course guide</h3></summary>
+
 ### Setting up the repository
 
 <details><summary>Click to expand</summary>
@@ -459,5 +541,6 @@ myElement.addEventlistener("click", function (e) {
 
 - [Solution for coffee-clicker](https://github.com/TEJ-Fellowship/coffee-clicker.solution)
 
+</details>
 </details>
 </details>
