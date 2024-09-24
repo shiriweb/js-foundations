@@ -84,9 +84,7 @@ TestFirst JavaScript is a multi-part series that provides practice to intermedia
 
 <details><summary><h3 style="display:inline">2. Follow the course guide</h3></summary>
 
-### Setting up the repository
-
-<details><summary>Click to expand</summary>
+<details><summary><h3 style="display:inline">i. Setting up the repository</h3></summary>
 
 ### Before beginning your assignment, make sure you have completed these steps:
 
@@ -123,7 +121,7 @@ After `testem` initiates, connect to `http//localhost:7357` in your web browser 
 
 ---
 
-## Foundations
+<details><summary><h3 style="display:inline">ii. Foundations</h3></summary>
 
 ### **_testfirst-part-1_**
 
@@ -399,10 +397,11 @@ class TEJstudent extends Student {
 </details>
 </details>
 </br>
+</details>
 
 ---
 
-## Vanilla JavaScript projects
+<details><summary><h3 style="display:inline">iii. Vanilla JavaScript projects</h3></summary>
 
 ### **_WHACK-A-MOLE_**
 
@@ -541,6 +540,7 @@ myElement.addEventlistener("click", function (e) {
 
 - [Solution for coffee-clicker](https://github.com/TEJ-Fellowship/coffee-clicker.solution)
 
+</details>
 </details>
 </details>
 </details>
