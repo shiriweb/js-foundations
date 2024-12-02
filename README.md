@@ -12,6 +12,10 @@ TestFirst JavaScript is a multi-part series that provides practice to intermedia
 
 - Alternative Study Plan-2 (1 Day Per Week): If you prefer studying only one day per week, dedicate 8 hours on that day. With this schedule, you can complete the one part testcases in two weeks, finishing all exercises in around of 16 weeks(approximately 4 month) to complete the exercises.
 
+- You can use this <a href="https://docs.google.com/spreadsheets/d/1i9Us5QyIlWdZlWSG2Hr7FuEYAYuMuAFKuvEuYw0NKoM/copy" target="_blank">spreadsheet</a> to track your JS-Foundation progress. Save a copy of the spreadsheet to your account. Then, in the Timeline sheet, enter your start date and
+  the number of hours you plan to study each week. As you finish each course, update the Actual End Date column in the Curriculum Data sheet, without changing the Planned Start Date or Planned End Date columns. The spreadsheet will automatically update and provide revised completion estimates
+  based on the dates you enter.
+
 ## Suggested sample schedule
 
 | **Day** | **8-Hours Daily Plan**(2 Weeks)                 | **4-Hours Daily Plan**(1 Month)                 | **1-Day Weekly Plan**(4 Months)                 |
