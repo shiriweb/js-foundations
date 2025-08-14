@@ -1,20 +1,21 @@
-/* eslint-env jasmine */
-/* eslint-disable no-undef */
+/* eslint-env jasmine /
+/ eslint-disable no-undef */
 
-describe('the function `hello`', () => {
+describe('the function hello', () => {
   it('says hello', () => {
-    expect(hello()).toEqual(FILL_ME_IN);
+    expect(hello()).toEqual('Hello!');
   });
 
   it('says hello to someone', () => {
-    expect(hello('Fred')).toEqual(FILL_ME_IN);
+    expect(hello('Fred')).toEqual('Hello, Fred!');
   });
 });
 
-describe('the function `add`', () => {
+describe('the function add', () => {
   let returnValue;
 
   beforeEach(() => {
+    returnValue = 0;
     // re-assign returnValue to 0 before each spec
   });
 
