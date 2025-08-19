@@ -55,7 +55,6 @@ function createBook(id, title, author, price) {
   return book;
 }
 
-
 function soup(phrase, characterBank) {
 
   for (let letter of phrase) {
@@ -67,3 +66,5 @@ function soup(phrase, characterBank) {
   }
   return true; 
 }
+
+
